@@ -12,3 +12,10 @@ ReactDOM.render(
   </div>,
   document.getElementById("root")
 );
+ReactDOM.render(
+  <div>
+  <h1>Created by Migle </h1>
+  <h1>Copyright 2021 </h1>
+  </div>,
+  document.getElementById("root")
+);

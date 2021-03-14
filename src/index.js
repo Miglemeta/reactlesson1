@@ -1,21 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Heading from "./Heading.jsx";
 
 ReactDOM.render(
   <div>
-    <h1>This is my favourite color list</h1>
-    <ul>
-      <li>Red </li>
-      <li>Blue </li>
-      <li>Green </li>
-    </ul>
-  </div>,
-  document.getElementById("root")
-);
-ReactDOM.render(
-  <div>
-  <h1>Created by Migle </h1>
-  <h1>Copyright 2021 </h1>
+  <Heading />
   </div>,
   document.getElementById("root")
 );
